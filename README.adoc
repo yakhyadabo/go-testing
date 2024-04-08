@@ -32,9 +32,12 @@ Run
 ```
 go run hello_world.go
 ```
-=== Numbers
 
-=== Strings
+=== Primitive Types
+
+==== Numbers
+
+==== Strings
 
 === Testing
 
