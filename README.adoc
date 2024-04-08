@@ -1,5 +1,57 @@
-== *Sample Go Testing Project*
+== *Sample Go Project*
 
+=== Setup MACOS
+1. Download and Install binary from https://go.dev/doc/install
+
+2. Set Environment variables
+```shell script
+# Go Root
+export GOROOT=/usr/local/go
+# Go Path
+export GOPATH=$HOME/go
+# PATH
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+```
+
+
+3. Check Installation
+```source=golqang
+$ go version
+```
+4. Hello World Application (hello_world.go)
+```source=golang
+package main
+
+import "fmt"
+
+func main() {
+     fmt.Println("Hello World!")
+}
+```
+Run
+```
+go run hello_world.go
+```
 === Numbers
 
 === Strings
+
+=== Testing
+
+=== Class
+
+==== Public methods
+
+==== Private methods
+
+=== Exceptions
+
+=== Collections
+
+==== Array
+
+==== Slice
+
+==== Map
+
+==== Custom collection
