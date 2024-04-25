@@ -49,3 +49,21 @@ func TestSum(t *testing.T) {
 		}
 	}
 }
+
+func TestAbs(t *testing.T) {
+	var tests = []struct {
+		a int
+		want int
+	}{
+		{a: -6, want: 6},
+		{a: 9, want: 9},
+		{a: 0, want: 0},
+	}
+
+	for _, tt := range tests {
+		ans := Abs(tt.a)
+		if ans != tt.want {
+			t.Errorf("got %d, want %d", ans, tt.want)
+		}
+	}
+}
