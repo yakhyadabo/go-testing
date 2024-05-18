@@ -1,4 +1,5 @@
-default: go_test
+default: test
 
-go_test:
+.PHONY: test
+test:
 	go test ./... -v
