@@ -1,4 +1,8 @@
-default: test
+default: build
+
+.PHONY: build
+build:
+	go build
 
 .PHONY: test
 test:
